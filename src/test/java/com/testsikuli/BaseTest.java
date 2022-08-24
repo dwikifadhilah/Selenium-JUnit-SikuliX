@@ -21,7 +21,6 @@ public class BaseTest {
         driver.get("https://www.online-calculator.com/full-screen-calculator/");
         
         screen = new Screen();
-        
         calculator = new CalculatorPage(screen);
     }
     
