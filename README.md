@@ -2,7 +2,11 @@
 
 ## Online Calculator Testing Using Junit, Selenium and Sikuli.
 
-Web URL : https://www.online-calculator.com/full-screen-calculator/
+##### Web URL : https://www.online-calculator.com/full-screen-calculator/
+##### Java Version : 1.8
+##### Selenium version : 4.4.0
+##### Junit Version : 4.13.2
+##### SikuliX version : 2.0.4
 
 ## How To Run Using Firefox
 1. Change property on file BaseTest.java
