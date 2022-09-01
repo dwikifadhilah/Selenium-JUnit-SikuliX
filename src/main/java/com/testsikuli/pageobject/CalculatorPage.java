@@ -1,4 +1,4 @@
-package com.testsikuli;
+package com.testsikuli.pageobject;
 
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Screen;
@@ -8,22 +8,22 @@ public class CalculatorPage extends BasePage{
         super(screen);
     }
     
-    private final String buttonComma = "D:\\QA\\Project Java\\SikuliTests\\image\\Button Comma.png";
-    private final String buttonZero = "D:\\QA\\Project Java\\SikuliTests\\image\\Button 0.png";
-    private final String buttonOne = "D:\\QA\\Project Java\\SikuliTests\\image\\Button 1.png";
-    private final String buttonTwo = "D:\\QA\\Project Java\\SikuliTests\\image\\Button 2.png";
-    private final String buttonFour = "D:\\QA\\Project Java\\SikuliTests\\image\\Button 4.png";
-    private final String buttonFive = "D:\\QA\\Project Java\\SikuliTests\\image\\Button 5.png";
-    private final String buttonEight = "D:\\QA\\Project Java\\SikuliTests\\image\\Button 8.png";
-    private final String buttonMultiplication = "D:\\QA\\Project Java\\SikuliTests\\image\\Button Times.png";
-    private final String buttonDivition = "D:\\QA\\Project Java\\SikuliTests\\image\\Button Div.png";
-    private final String buttonPlus = "D:\\QA\\Project Java\\SikuliTests\\image\\Button Plus.png";
-    private final String buttonMinus = "D:\\QA\\Project Java\\SikuliTests\\image\\Button Subtraction.png";
-    private final String buttonEquals = "D:\\QA\\Project Java\\SikuliTests\\image\\Button Equals.png";
-    private final String mulResults = "D:\\QA\\Project Java\\SikuliTests\\image\\Results Mul.png";
-    private final String divResults = "D:\\QA\\Project Java\\SikuliTests\\image\\Results Div.png";
-    private final String sumResults = "D:\\QA\\Project Java\\SikuliTests\\image\\Results Sum.png";
-    private final String subtractionResults = "D:\\QA\\Project Java\\SikuliTests\\image\\Results Subtraction.png";
+    private final String buttonComma = "src/main/resources/image/Button Comma.png";
+    private final String buttonZero = "src/main/resources/image/Button 0.png";
+    private final String buttonOne = "src/main/resources/image/Button 1.png";
+    private final String buttonTwo = "src/main/resources/image/Button 2.png";
+    private final String buttonFour = "src/main/resources/image/Button 4.png";
+    private final String buttonFive = "src/main/resources/image/Button 5.png";
+    private final String buttonEight = "src/main/resources/image/Button 8.png";
+    private final String buttonMultiplication = "src/main/resources/image/Button Times.png";
+    private final String buttonDivition = "src/main/resources/image/Button Div.png";
+    private final String buttonPlus = "src/main/resources/image/Button Plus.png";
+    private final String buttonMinus = "src/main/resources/image/Button Subtraction.png";
+    private final String buttonEquals = "src/main/resources/image/Button Equals.png";
+    private final String mulResults = "src/main/resources/image/Results Mul.png";
+    private final String divResults = "src/main/resources/image/Results Div.png";
+    private final String sumResults = "src/main/resources/image/Results Sum.png";
+    private final String subtractionResults = "src/main/resources/image/Results Subtraction.png";
     
     /**Multiplication*/
     public CalculatorPage multiplication() throws FindFailed {

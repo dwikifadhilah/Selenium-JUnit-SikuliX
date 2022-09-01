@@ -1,4 +1,4 @@
-package com.testsikuli;
+package com.testsikuli.pageobject;
 
 import org.junit.Assert;
 import org.sikuli.script.FindFailed;
